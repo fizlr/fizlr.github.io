@@ -1,0 +1,60 @@
+html { 
+    background: url(/img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    /*Make the text look better*/
+    -webkit-font-smoothing: antialiased;
+    
+    /*Make the text have a nice line height*/
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+}
+
+
+.logo {
+    max-width: 35%;
+    
+}
+
+.description {
+    max-width: 30%;
+    float: left;
+    margin-top: 4em;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5em;
+
+}
+
+.phone-container {
+    float: right;
+    max-width: 65%;
+    vertical-align: middle;
+    margin-top: 1.5em;
+    margin-bottom: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5em;
+
+}
+
+.phonehelper {
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 100%;
+}

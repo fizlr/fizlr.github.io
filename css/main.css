@@ -92,7 +92,6 @@ html {
 @media (max-width: 565px) {
         
     .description {
-        min-width: 320px;
         max-width: 100%;
         margin-top: 0.5em;
         margin-bottom: 20px;

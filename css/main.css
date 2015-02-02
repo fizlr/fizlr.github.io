@@ -32,7 +32,7 @@ html {
     min-width: 35%;
     max-width: 40%;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -118,6 +118,13 @@ html {
     .phonehelper {
         max-height: 550px;
         max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .logo-container {
+        max-width: 100%;
+        margin-top: 0.5em;
         margin-left: auto;
         margin-right: auto;
     }

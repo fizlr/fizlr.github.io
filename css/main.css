@@ -29,12 +29,14 @@ html {
 }
 
 .logo-container {
+    float: left;
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 
 .title {

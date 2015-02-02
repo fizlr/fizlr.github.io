@@ -12,12 +12,25 @@ html {
     line-height: 1.5;
 }
 
+.holder {
+    height: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.holder:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    margin-right: -.25em;
+    height: 100%;
+}
 
 
 .container {
     max-width: 968px;
     height: 100%;
-    vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
@@ -26,18 +39,8 @@ html {
     border: 1px;
     border-style: dashed;
     color: red;
-    text-align: center;
     overflow:hidden;
 
-}
-
-.container:before {
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-    width: 0;
-    margin-right: -.25em;
-    height: 100%;
 }
 
 .logo-container {

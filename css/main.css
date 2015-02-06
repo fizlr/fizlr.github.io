@@ -54,23 +54,128 @@ body {
     font-weight: 400;
     font-size: 25px;
     letter-spacing: -0.5px;
-    text-align: left;
+    text-align: center;
     color: white;
+    text-shadow: 1px 1px 2px #333333;
     padding-right: 5px;
+    padding-top: 10px;
 }
 
 .logo-head {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 85%;
     height: auto;
 }
 
 .phone-head {
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%;
     height: auto;
+    
 }
 
 .app-store-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 100%;
     height: auto;
     padding-top: 25px;
+}
+
+.container-shadow {
+    height: 25px;
+    width: 100%;
+    background-image:url(/img/ctn-shd.png);
+    background-repeat: repeat-x;
+    
+}
+
+.container-shadow-flip {
+    height: 25px;
+    width: 100%;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    background-image:url(/img/ctn-shd.png);
+    background-repeat: repeat-x;
+    
+}
+
+.video-container {
+    max-width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px;
+    border-style: dashed;
+    color: red;
+    overflow: hidden;
+}
+
+.large-title {
+    margin: 0;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #D62716;
+    word-spacing: 5px;
+}
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.banner-1-bg {
+    min-height: 300px;
+    background: url(/img/bg1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.banner-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 910px;
+    border: 1px;
+    border-style: dashed;
+    color: red;
+    overflow: hidden;
+}
+
+.list {
+    float: left;
+    min-width: 50%;
+    border: 1px;
+    border-style: dashed;
+    color: yellow;
+    text-align: left;
+    overflow: hidden;
 }

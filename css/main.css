@@ -1,10 +1,4 @@
-html { 
-    background: url(/img/bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
+body {
     /*Make the text look better*/
     -webkit-font-smoothing: antialiased;
     
@@ -12,124 +6,71 @@ html {
     line-height: 1.5;
 }
 
+.header-bg {
+    min-height: 450px;
+    background: url(/img/header-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    overflow: hidden; 
+}
 
-
-.container {
-    max-width: 968px;
-    vertical-align: middle;
+.header-container {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
-    padding-left: 5px;
-    padding-right: 5px;
+    max-width: 910px;
     border: 1px;
     border-style: dashed;
     color: red;
-    overflow:hidden;
+    overflow: hidden;
+   
 }
 
-.logo-container {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 20px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.title {
-    text-align: left;
-    font-size: 2.25em;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: white;
-    text-shadow: 5px 5px 40px black;
-    
-}
-
-.logo {
-    max-width: 100px;
-    height: auto;
-    
-}
-
-.description {
-    min-width: 35%;
-    max-width: 40%;
+.header-left {
     float: left;
-    margin-top: 4em;
-    margin-left: 1em;
-    margin-right: 0.5em;
-
+    max-width: 46%;
+    border: 1px;
+    border-style: dashed;
+    color: aqua;
+    overflow: hidden;
 }
 
-.phone-container {
+.header-right {
     float: right;
     max-width: 50%;
-    vertical-align: middle;
-    margin-bottom: auto;
-    margin-top: 1em;
-    padding-right: 10px;
-    text-align: center;
-
+    border: 1px;
+    border-style: dashed;
+    color: yellow;
+    overflow: hidden;
 }
 
-.phonehelper {
-    vertical-align: middle;
-    max-height: 100%;
-    max-width: 100%;
-}
-
-/*Text styling goes here*/ 
-
-.strap {
+.header-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: -0.5px;
     text-align: left;
     color: white;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    text-shadow: 0 1px #46494d;
+    padding-right: 5px;
 }
 
-
-
-/*Media Queries go here */
-
-@media (max-width: 565px) {
-        
-    .description {
-        max-width: 100%;
-        margin-top: 0.5em;
-        margin-bottom: 20px;
-    }
-    
-    .phone-container {
-        float: none;
-        min-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        overflow:hidden;
-        margin-bottom: 30px;
-        
-    }
-    
-    .phonehelper {
-        max-height: 550px;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    
-    /* text styling media queries */
-    
-    .strap {
-    text-align: center;
-    color: red;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 1.5em; 
-    }
+.logo-head {
+    max-width: 85%;
+    height: auto;
 }
 
+.phone-head {
+    max-width: 100%;
+    height: auto;
+}
 
+.app-store-button {
+    max-width: 100%;
+    height: auto;
+    padding-top: 25px;
+}

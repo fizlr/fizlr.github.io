@@ -181,7 +181,7 @@ body {
 }
 
 .feature-scroll-1 {
-    min-height: 800px;
+    min-height: 900px;
     background: url(/img/banner1.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -191,7 +191,7 @@ body {
     padding-right: 10px;
 }
 .feature-scroll-2 {
-    min-height: 700px;
+    min-height: 900px;
     background: url(/img/banner2.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -201,7 +201,7 @@ body {
     padding-right: 10px;
 }
 .feature-scroll-3 {
-    min-height: 700px;
+    min-height: 900px;
     background: url(/img/banner3.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -249,4 +249,49 @@ body {
     font-weight: 300;
     font-size: 25px;
     color: white; 
+}
+
+.review-container {
+    max-width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px;
+    border-style: dashed;
+    color: red;
+    overflow: hidden;
+}
+
+.review-title {
+    padding-top: 45px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #D62716; 
+    text-align: center;
+    line-height: 0;
+}
+
+.review-copy {
+    padding-top: 35px;
+    padding-top: -10px;
+    padding-bottom: 20px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #697D7F;
+    text-align: center;
+}
+
+.spacer {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color: #969998;
 }

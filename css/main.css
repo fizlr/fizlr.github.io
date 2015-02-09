@@ -51,8 +51,8 @@ body {
 
 .header-text {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 25px;
+    font-weight: 300;
+    font-size: 28px;
     letter-spacing: -0.5px;
     text-align: center;
     color: white;
@@ -178,4 +178,75 @@ body {
     color: yellow;
     text-align: left;
     overflow: hidden;
+}
+
+.feature-scroll-1 {
+    min-height: 800px;
+    background: url(/img/banner1.jpg) no-repeat 48% 50% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.feature-scroll-2 {
+    min-height: 700px;
+    background: url(/img/banner2.jpg) no-repeat 48% 50% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.feature-scroll-3 {
+    min-height: 700px;
+    background: url(/img/banner3.jpg) no-repeat 48% 50% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.feature-scroll-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 910px;
+    border: 1px;
+    border-style: dashed;
+    color: red;
+}
+
+.feature-scroll-content {
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 10px;
+    max-width: 35%;
+    min-width: 210px;
+    border: 1px;
+    border-style: dashed;
+    color: aqua;
+    overflow: hidden;
+}
+
+.feature-title {
+    padding-top: 150px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: white; 
+}
+.feature-description {
+    padding-top: -10px;
+    padding-bottom: 20px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: white; 
 }

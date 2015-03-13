@@ -16,6 +16,7 @@ body {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     display: block;
+    background-attachment: scroll;
     padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;

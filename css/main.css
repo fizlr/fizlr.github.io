@@ -13,6 +13,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment: scroll;
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -183,6 +184,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment: scroll;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -193,6 +195,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment: scroll;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -203,6 +206,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment: scroll;
     padding-left: 10px;
     padding-right: 10px;
 

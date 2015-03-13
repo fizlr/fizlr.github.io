@@ -8,7 +8,7 @@ body {
 
 .header-bg {
     min-height: 450px;
-    background: url(/img/header-bg.jpg) no-repeat center center fixed;
+    background: url(/img/header-bg2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,7 +58,7 @@ body {
     color: white;
     text-shadow: 1px 1px 2px #333333;
     padding-right: 5px;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 .logo-head {
@@ -182,7 +182,7 @@ body {
 
 .feature-scroll-1 {
     min-height: 900px;
-    background: url(/img/banner1.jpg) no-repeat 48% 50% fixed;
+    background: url(/img/banner-4.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -192,7 +192,7 @@ body {
 }
 .feature-scroll-2 {
     min-height: 900px;
-    background: url(/img/banner2.jpg) no-repeat 48% 50% fixed;
+    background: url(/img/banner-5.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -225,7 +225,7 @@ body {
     margin-left: 0;
     margin-right: auto;
     padding-left: 10px;
-    max-width: 35%;
+    max-width: 40%;
     min-width: 210px;
     border: 1px;
     border-style: dashed;
@@ -240,7 +240,9 @@ body {
     font-family: 'Lato' , sans-serif;
     font-weight: 700;
     font-size: 50px;
-    color: white; 
+    color: white;
+    line-height: normal;
+    text-shadow: 1px 1px 2px #333333;
 }
 .feature-description {
     padding-top: -10px;
@@ -248,7 +250,8 @@ body {
     font-family: 'Lato' , sans-serif;
     font-weight: 300;
     font-size: 25px;
-    color: white; 
+    color: white;
+    text-shadow: 1px 1px 2px #333333;
 }
 
 .review-container {
@@ -274,7 +277,7 @@ body {
     font-size: 45px;
     color: #D62716; 
     text-align: center;
-    line-height: 0;
+    line-height: normal;
 }
 
 .review-copy {

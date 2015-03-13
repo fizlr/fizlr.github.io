@@ -156,20 +156,6 @@ body {
     height: 100%; 
 }
 
-.banner-1-bg {
-    min-height: 300px;
-    background: url(/img/bg1.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 50px;
-    overflow: hidden;
-}
-
 .banner-container {
     margin-left: auto;
     margin-right: auto;

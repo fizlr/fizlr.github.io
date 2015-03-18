@@ -30,6 +30,7 @@ body {
     border: 1px;
     border-style: dashed;
     color: red;
+    overflow: hidden;
    
 }
 
@@ -52,6 +53,7 @@ body {
     border: 1px;
     border-style: dashed;
     color: yellow;
+    overflow: hidden;
 }
 
 .header-text {

@@ -47,7 +47,6 @@ body {
     display: none;
 }
 .header-alt {
-    display: block;
     max-width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -80,13 +79,11 @@ body {
     height: auto;
 }
 .phone-alt {
+    display: block;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    text-align: center;
-    padding-left: 50%;
-    padding-right: 50%;
 }
 
 .app-store-button {

@@ -1,0 +1,272 @@
+body {
+    /*Make the text look better*/
+    -webkit-font-smoothing: antialiased;
+    
+    /*Make the text have a nice line height*/
+    line-height: 1.5;
+}
+
+.header-bg {
+    min-height: 450px;
+    background: url(/img/header-bg3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    overflow: hidden; 
+}
+
+.header-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    max-width: 910px;
+    border: 1px;
+    border-style: dashed;
+    color: red;
+    overflow: hidden;
+   
+}
+
+.header-left {
+    max-width: 100%;
+    border: 1px;
+    border-style: dashed;
+    color: aqua;
+    overflow: hidden;
+}
+
+.header-right {
+    display: none;
+}
+.header-alt {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    border: 1px;
+    border-style: dashed;
+    color: yellow;
+    overflow: hidden;
+}
+
+.header-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px #333333;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.logo-head {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+.phone-alt {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.app-store-button {
+    display: none;
+}
+
+.container-shadow {
+    height: 25px;
+    width: 100%;
+    background-image:url(/img/ctn-shd.png);
+    background-repeat: repeat-x;
+    
+}
+
+.container-shadow-flip {
+    height: 25px;
+    width: 100%;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    background-image:url(/img/ctn-shd.png);
+    background-repeat: repeat-x;
+    
+}
+
+.video-container {
+    max-width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px;
+    border-style: dashed;
+    color: red;
+    overflow: hidden;
+}
+
+.large-title {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: -1px;
+    color: #D62716;
+    word-spacing: 5px;
+}
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+    
+.feature-scroll-1 {
+    min-height: 900px;
+    background: url(/img/banner-4.jpg) no-repeat 48% 50% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.feature-scroll-2 {
+    min-height: 900px;
+    background: url(/img/banner-5.jpg) no-repeat 48% 50% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.feature-scroll-3 {
+    min-height: 900px;
+    background: url(/img/banner-6.jpg) no-repeat 48% 50% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.feature-scroll-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 910px;
+    border: 1px;
+    border-style: dashed;
+    color: red;
+}
+
+.feature-scroll-content {
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+    border: 1px;
+    border-style: dashed;
+    color: aqua;
+    overflow: hidden;
+}
+
+.feature-title {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    line-height: normal;
+    text-shadow: 1px 1px 2px #333333;
+}
+.feature-description {
+    padding-bottom: 0px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px #333333;
+}
+
+.review-container {
+    max-width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px;
+    border-style: dashed;
+    color: red;
+    overflow: hidden;
+}
+
+.review-title {
+    padding-top: 45px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #D62716; 
+    text-align: center;
+    line-height: normal;
+}
+
+.review-copy {
+    padding-top: 35px;
+    padding-top: -10px;
+    padding-bottom: 20px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #697D7F;
+    text-align: center;
+}
+
+.spacer {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color: #969998;
+}

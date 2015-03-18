@@ -85,6 +85,8 @@ body {
     margin-right: auto;
     height: auto;
     text-align: center;
+    padding-left: 50%;
+    padding-right: 50%;
 }
 
 .app-store-button {

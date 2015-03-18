@@ -4,17 +4,10 @@ body {
     
     /*Make the text have a nice line height*/
     line-height: 1.5;
-    
-    width: 100vw;
-    
-    margin: 0;
-    
-    overflow-x: hidden;
 }
 
 .header-bg {
     min-height: 650px;
-    width: 100vw;
     background: url(/img/header-bg8.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -238,7 +231,6 @@ float: right;
 
 .feature-scroll-1 {
     min-height: 900px;
-    width: 100vw;
     background: url(/img/banner-4.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -249,7 +241,6 @@ float: right;
 }
 .feature-scroll-2 {
     min-height: 900px;
-    width: 100vw;
     background: url(/img/banner-5.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -260,7 +251,6 @@ float: right;
 }
 .feature-scroll-3 {
     min-height: 900px;
-    width: 100vw;
     background: url(/img/banner-6.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;

@@ -22,6 +22,7 @@ body {
 }
 
 .header-container {
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;

@@ -4,6 +4,10 @@ body {
     
     /*Make the text have a nice line height*/
     line-height: 1.5;
+    
+    height:100%;
+overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
 
 .header-bg {

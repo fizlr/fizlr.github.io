@@ -34,8 +34,8 @@ body {
 
 .header-left {
     float: left;
-    max-width: 46%;
-    min-width: 380px;
+    max-width: 40%;
+    min-width: 320px;
     border: 1px;
     border-style: dashed;
     color: aqua;
@@ -44,8 +44,9 @@ body {
 
 .header-right {
     float: right;
-    max-width: 50%;
-    border: 0px;
+    max-width: 60%;
+    height: 650px;
+    border: 1px;
     border-style: dashed;
     color: yellow;
     overflow: hidden;

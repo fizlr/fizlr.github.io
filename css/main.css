@@ -10,14 +10,29 @@ body {
 -webkit-overflow-scrolling: touch;*/
 }
 
+a:link {
+    color: inherit;
+    text-decoration:none;
+}
+a:visited {
+    color: inherit;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:none;
+}
+a:active {
+    text-decoration:none;
+}
+
 .header-bg {
-    min-height: 650px;
+    min-height: 750px;
     background: url(/img/header-bg8.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 80px;
+    padding-top: 100px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0px;
@@ -25,6 +40,7 @@ body {
 }
 
 .header-container {
+    margin-top: 54px;
     margin-left: auto;
     margin-right: auto;
     max-width: 910px;
@@ -40,7 +56,7 @@ body {
     float: left;
     max-width: 40%;
     min-width: 320px;
-    border: 1px;
+    border: 0px;
     border-style: dashed;
     color: aqua;
     overflow: hidden;
@@ -50,7 +66,8 @@ body {
     float: right;
     max-width: 60%;
     height: 650px;
-    border: 1px;
+    margin-top: 47px;
+    border: 0px;
     border-style: dashed;
     color: yellow;
     overflow: hidden;
@@ -77,14 +94,18 @@ body {
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 0px;
+    line-height: 1.3;
+    margin-top: 10px
 }
 
 .logo-head {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 85%;
+    max-width: 50%;
     height: auto;
+    -webkit-filter: drop-shadow( 0px 3px 2px rgba(0,0,0,.5) );
+    filter: drop-shadow( 0px 3px 2px rgba(0,0,0,.5) );
 }
 
 .phone-head {
@@ -93,30 +114,95 @@ body {
     max-width: 100%;
     height: auto;
     vertical-align: bottom;
-    
+}
+
+.logo-text {
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 68px;
+    color: white;
+    letter-spacing: 1px;
+    -webkit-filter: drop-shadow( 0px 3px 2px rgba(0,0,0,.6) );
+    filter: drop-shadow( 0px 3px 2px rgba(0,0,0,.6) );
+    line-height: 1;
+}
+
+.betabutton {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    max-width: 65%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+/*    background-image: linear-gradient(#D62716, #AA1A16);*/
+    background-color: #D62716;
+    border-top: 1px solid rgba(255,255,255,.3);
+    border-radius: 8px;
+    -webkit-filter: drop-shadow( 0px 3px 2px rgba(0,0,0,.5) );
+    filter: drop-shadow( 0px 3px 2px rgba(0,0,0,.5) );
+    cursor: pointer;
+}
+
+.betabutton:hover {
+/*    background-image: linear-gradient(#78B142, #AA1A16);*/
+    background-color: #C10606;
+}
+
+#beta-bt-txt {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    height: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding-top: 12px;
+    margin-top: 0px;
+    text-align: center;
+    opacity: 0.8;
+    -webkit-filter: drop-shadow( 0px 1px 1px rgba(0,0,0,.4) );
+    filter: drop-shadow( 0px 1px 1px rgba(0,0,0,.4) );
+}
+
+#beta-bt-txt:hover {
+    opacity: 1
+}
+#beta-intro {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 2px 3px #333333;
+    margin: 0;
+    margin-top: 20px;
+}
+
+#about-img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
 }
 
 .app-store-button {
     display: block;
+    display: none;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     height: auto;
     padding-top: 25px;
-}
-
-.about-container {
-    max-width: 910px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px;
-    border-style: dashed;
-    color: red;
-    overflow: hidden;
 }
 
 .video-container {
@@ -179,9 +265,35 @@ body {
     word-spacing: 5px;
 }
 
+.about-bg-1 {
+    min-height: 700px;
+    background: url(/img/about-bg1.jpg) no-repeat 48% 50% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0px;
+    border-style: dashed;
+    color: red;
+    overflow: hidden;
+}
+
 .about-left {
     float: left;
-    max-width: 50%;
+    max-width: 52%;
+    min-height: 420px;
     border: 1px;
     border-style: dashed;
     color: aqua;
@@ -189,12 +301,13 @@ body {
 }
 
 .about-right {
-float: right;
+    float: right;
     max-width: 45%;
     border: 1px;
     border-style: dashed;
     color: yellow;
     overflow: hidden;
+    
 }
 
 .embed-container { 
@@ -234,7 +347,7 @@ float: right;
 }
 
 .feature-scroll-1 {
-    min-height: 900px;
+    min-height: 950px;
     background: url(/img/banner-4.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -244,7 +357,7 @@ float: right;
     padding-right: 10px;
 }
 .feature-scroll-2 {
-    min-height: 900px;
+    min-height: 950px;
     background: url(/img/banner-5.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -254,7 +367,7 @@ float: right;
     padding-right: 10px;
 }
 .feature-scroll-3 {
-    min-height: 900px;
+    min-height: 950px;
     background: url(/img/banner-6.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -268,7 +381,7 @@ float: right;
 .feature-scroll-container{
     margin-left: auto;
     margin-right: auto;
-    max-width: 910px;
+    max-width: 1000px;
     border: 1px;
     border-style: dashed;
     color: red;
@@ -278,8 +391,8 @@ float: right;
     margin-left: 0;
     margin-right: auto;
     padding-left: 10px;
-    max-width: 40%;
-    min-width: 210px;
+    max-width: 38%;
+    min-width: 200px;
     border: 1px;
     border-style: dashed;
     color: aqua;
@@ -350,4 +463,12 @@ float: right;
     margin-right: auto;
     height: 1px;
     background-color: #969998;
+}
+
+.spacer-white {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1.25px;
+    background-color: white;
 }

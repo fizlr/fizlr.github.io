@@ -35,6 +35,7 @@ body {
 }
 
 .header-left {
+    float: none;
     max-width: 100%;
     border: 1px;
     border-style: dashed;
@@ -46,6 +47,7 @@ body {
     display: none;
 }
 .header-alt {
+    display: block;
     max-width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -79,6 +81,7 @@ body {
     height: auto;
 }
 .phone-alt {
+    display: block;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;

@@ -12,10 +12,7 @@
     <link rel='stylesheet' href="/css/main.css" type="text/css" media="all and (min-width: 771px)"/>
     <link rel='stylesheet' href="/css/main-flow.css" type="text/css" media="only screen and (max-width: 770px)"/>
     <link rel='stylesheet' href="/css/main-flow.css" type="text/css" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px)"/>
-    
-                                                                            
-    <link rel="stylesheet" type="text/css" href="css/gallery.theme.css">
-    <link rel="stylesheet" type="text/css" href="css/gallery.prefixed.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
     </head>
     <body>
@@ -27,11 +24,13 @@
                     <p class="header-text">Sparking the conversation!</p>
                         <div class="spacer-white"></div>
                     <p id="beta-intro">Get involved &amp; secure Your Username before launch!</p>
-                        <div class="betabutton">
+                        <a href="#beta">
+                            <div class="betabutton">
                             <p id="beta-bt-txt">
-                                <a href="#beta">Join The Beta</a>
+                                <i class="fa fa-thumbs-up"></i> Join The Beta
                             </p>
                         </div>
+                        </a>
                     <img class="app-store-button" src="img/app-store.svg">
                     </div>
                     <div class="header-right">
@@ -83,14 +82,37 @@
         </div>
             
         <div class="feature-scroll-3">
-            <a id="beta"></a>
-        <div class="feature-scroll-container">
+            <div class="feature-scroll-container">
                 <div class="feature-scroll-content">
                     <p class="feature-title">Found a bore</p>
                     <p class="feature-description"><b>Dont Waste Time</b><br>Stumbled across someone who doesn't hold your attention? Fizl out and find someone more interesting to chat to.</p>
                 </div>
             </div>
         </div>
+            <a id="beta"></a>
+              <div class="beta-bg">    
+                <div class="beta-container">
+                    <div class="beta-right">
+                        <p class="title">Join The Beta</p>
+                        <p class="subtitle">Send us your details below and we will be in touch when the beta launches</p>
+                        <div class="spacer"></div>
+                        <br>
+                        <form class="beta-form" action="//formspree.io/jacob.coy@kingdomlondon.com" method="post">
+                            <input id="txt" type="text" placeholder="First Name" name="First Name" required><br>
+                            <input id="txt" type="text" placeholder="Last Name" name="Last Name"><br>
+                            <input id="mail" type="email" placeholder="fluffy@fox.com" name="_replyto" required><br>
+        <input id="sign" type="submit" value="Sign Up!">
+                            <input type="text" name="_gotcha" style="display:none" />
+                            <input type="hidden" name="_subject" value="New Fizlr Beta Submission!" />
+                            <input type="hidden" name="_next" value="//fizlr.net/cheers.html" />
+        </form>
+                    </div>
+            
+                    <div class="about-left">
+                        <img id="about-img" src="img/preview-sml.png">
+                    </div>
+                </div>
+              </div>
             <div class="review-container">
                 <p class="large-title">People Love Fizlr</p>
                     <br>

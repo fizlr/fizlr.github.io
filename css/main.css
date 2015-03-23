@@ -512,7 +512,7 @@ a:active {
 }
 
 #mail:valid {
-    background: url(/img/valid.svg) no-repeat 100% center;
+    background: url(/img/f-valid.svg) no-repeat 100% center;
 }
 
 #txt:focus:invalid {
@@ -520,7 +520,7 @@ a:active {
 }
 
 #txt:required:valid {
-    background: url(/img/valid.svg) no-repeat 100% center;
+    background: url(/img/f-valid.svg) no-repeat 100% center;
 }
 #mail {
     -webkit-transition: width .25s;

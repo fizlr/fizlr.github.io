@@ -284,7 +284,8 @@ a:active {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 200px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     padding-left: 10px;
     padding-right: 10px;
     border: 0px;
@@ -348,6 +349,17 @@ a:active {
     overflow: hidden;
 }
 
+.feature-scroll {
+    min-height: 950px;
+    background: url(/img/banner-7.jpg) no-repeat 48% 50% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .feature-scroll-1 {
     min-height: 950px;
     background: url(/img/banner-4.jpg) no-repeat 48% 50% fixed;
@@ -377,7 +389,6 @@ a:active {
     background-size: cover;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 .feature-scroll-container{
@@ -423,7 +434,7 @@ a:active {
 }
 
 .beta-bg {
-    min-height: 400px;
+    min-height: 700px;
     background: url(/img/bg_beta.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -435,10 +446,10 @@ a:active {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 75px;
+    padding-top: 10%;
     padding-left: 10px;
     padding-right:  20px;
-    padding-bottom: 50px;
+    padding-bottom: 10%;
     border: 0px;
     border-style: dashed;
     color: red;
@@ -456,13 +467,25 @@ a:active {
     background-color: white;
     padding: 15px;
     margin-bottom: 25px;
-    border: 1px;
-    border-style: solid;
     border-radius: 6px;
     color: #dddddd;
     -webkit-filter: drop-shadow( 0px 3px 2px rgba(0,0,0,.5) );
     filter: drop-shadow( 0px 3px 2px rgba(0,0,0,.5) );
 }
+
+.beta-subtitle {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 22px;
+    color: #D62716;
+}
+
 .beta-form {
     display: block;
     width: 90%;
@@ -509,6 +532,7 @@ a:active {
     box-shadow: inset 0 2px 6px rgba(34,170,255,0.3);
     width: 93%;
     opacity: 1;
+    background-color: white;
 }
 
 *:required {
@@ -586,42 +610,6 @@ a:active {
 .sign:active {
     background-color: #78B142;
 }
-.review-container {
-    max-width: 910px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px;
-    border-style: dashed;
-    color: red;
-    overflow: hidden;
-}
-
-.review-title {
-    padding-top: 45px;
-    padding-bottom: 0px;
-    margin-bottom: 0;
-    font-family: 'Lato' , sans-serif;
-    font-weight: 700;
-    font-size: 45px;
-    color: #D62716; 
-    text-align: center;
-    line-height: normal;
-}
-
-.review-copy {
-    padding-top: 35px;
-    padding-top: -10px;
-    padding-bottom: 20px;
-    font-family: 'Lato' , sans-serif;
-    font-weight: 300;
-    font-size: 25px;
-    color: #697D7F;
-    text-align: center;
-}
 
 .spacer {
     width: 75%;
@@ -637,4 +625,11 @@ a:active {
     margin-right: auto;
     height: 1.25px;
     background-color: white;
+}
+
+.nav {
+    width: 100%;
+    min-height: 120px;
+    background-color: light-grey;
+    box-shadow: inset 0 8px 20px rgba(0,0,0,0.4);
 }

@@ -25,8 +25,23 @@ a:active {
     text-decoration:none;
 }
 
+a.footlnk:link {
+    color: red;
+    text-decoration:none;
+}
+a.footlnk:visited {
+    color: inherit;
+    text-decoration:none;
+}
+a.footlnk:hover {
+    text-decoration:underline;
+}
+a.footlnk:active {
+    text-decoration:none;
+}
 .header-bg {
     min-height: 750px;
+    background-color: red;
     background: url(/img/header-bg8.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -269,7 +284,6 @@ a:active {
 }
 
 .about-bg-1 {
-    min-height: 700px;
     background: url(/img/about-bg1.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -278,17 +292,19 @@ a:active {
     padding-left: 10px;
     padding-right: 10px;
     margin: 0;
+    margin-bottom: 0;
+    overflow: hidden;
 }
 
 .about-container {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    margin-top: 7%;
+    margin-bottom: 7%;
     padding-left: 10px;
     padding-right: 10px;
-    border: 0px;
+    border: 1px;
     border-style: dashed;
     color: red;
     overflow: hidden;
@@ -301,7 +317,6 @@ a:active {
     border: 1px;
     border-style: dashed;
     color: aqua;
-    overflow: hidden;
 }
 
 .about-right {
@@ -310,7 +325,6 @@ a:active {
     border: 1px;
     border-style: dashed;
     color: yellow;
-    overflow: hidden;
 }
 
 .embed-container { 
@@ -434,39 +448,48 @@ a:active {
 }
 
 .beta-bg {
-    min-height: 700px;
+/*    min-height: 650px;*/
     background: url(/img/bg_beta.jpg) no-repeat 48% 50% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden;
+    margin: 0;
 }
 
 .beta-container {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10%;
     padding-left: 10px;
     padding-right:  20px;
-    padding-bottom: 10%;
-    border: 0px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    border: 1px;
     border-style: dashed;
     color: red;
     overflow: hidden;
 }
 
 .beta-left {
-    
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 52%;
+/*    min-height: 420px;*/
+    border: 1px;
+    border-style: dashed;
+    color: aqua;
 }
 
 .beta-right {
     display: block;
     float: right;
-    max-width: 38%;
+    max-width: 40%;
     background-color: white;
     padding: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 8px;
     border-radius: 6px;
     color: #dddddd;
     -webkit-filter: drop-shadow( 0px 3px 2px rgba(0,0,0,.5) );
@@ -629,7 +652,57 @@ a:active {
 
 .nav {
     width: 100%;
-    min-height: 120px;
+    min-height: 50px;
     background-color: light-grey;
-    box-shadow: inset 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.nav-container {
+    max-width: 1000px;
+    min-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px;
+    color: red;
+    border-style: dotted;
+/*
+    padding-top: 2%;
+    padding-bottom: 2%;
+*/
+}
+
+.nav-text {
+    height: 20px;
+    float: left;
+    margin: 0;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 17px;
+    color: #697D7F;
+    margin-top: 15px;
+    line-height: 1;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.footer-logo {
+    display: block;
+    min-height: 50px;
+    float: left;
+    width: 80px;
+    overflow: hidden;
+    margin-right: 30px;
+    
+}
+
+.ftlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    padding-top: 1px;
+    margin: 0;
 }

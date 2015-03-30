@@ -26,16 +26,46 @@ a:active {
 }
 
 a.footlnk:link {
-    color: red;
+    -webkit-transition: color .4s;
+    transition: color .4s;
+    color: inherit;
     text-decoration:none;
 }
+
+a.footlnk:link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1.6px;
+/*    top: 20px;*/
+  bottom: 2px;
+  left: 0;
+  background-color: #697D7F;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
 a.footlnk:visited {
     color: inherit;
     text-decoration:none;
 }
 a.footlnk:hover {
-    text-decoration:underline;
+    -webkit-transition: color .4s;
+    transition: color .4s;
+    color: #C10606;
+/*    text-decoration:underline;*/
 }
+
+a.footlnk:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    background-color: #C10606;
+}
+
 a.footlnk:active {
     text-decoration:none;
 }
@@ -304,7 +334,7 @@ a.footlnk:active {
     margin-bottom: 7%;
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px;
+    border: 0px;
     border-style: dashed;
     color: red;
     overflow: hidden;
@@ -314,7 +344,7 @@ a.footlnk:active {
     float: left;
     max-width: 52%;
     min-height: 420px;
-    border: 1px;
+    border: 0px;
     border-style: dashed;
     color: aqua;
 }
@@ -322,7 +352,7 @@ a.footlnk:active {
 .about-right {
     float: right;
     max-width: 45%;
-    border: 1px;
+    border: 0px;
     border-style: dashed;
     color: yellow;
 }
@@ -409,7 +439,7 @@ a.footlnk:active {
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
-    border: 1px;
+    border: 0px;
     border-style: dashed;
     color: red;
 }
@@ -420,7 +450,7 @@ a.footlnk:active {
     padding-left: 10px;
     max-width: 38%;
     min-width: 200px;
-    border: 1px;
+    border: 0px;
     border-style: dashed;
     color: aqua;
     overflow: hidden;
@@ -466,7 +496,7 @@ a.footlnk:active {
     padding-right:  20px;
     margin-top: 7%;
     margin-bottom: 7%;
-    border: 1px;
+    border: 0px;
     border-style: dashed;
     color: red;
     overflow: hidden;
@@ -478,7 +508,7 @@ a.footlnk:active {
     vertical-align: middle;
     max-width: 52%;
 /*    min-height: 420px;*/
-    border: 1px;
+    border: 0px;
     border-style: dashed;
     color: aqua;
 }
@@ -661,9 +691,11 @@ a.footlnk:active {
     min-height: 50px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px;
+    border: 0px;
     color: red;
     border-style: dotted;
 /*
@@ -673,9 +705,10 @@ a.footlnk:active {
 }
 
 .nav-text {
-    height: 20px;
+    height: 25px;
     float: left;
     margin: 0;
+    position: relative;
     font-family: 'Lato' , sans-serif;
     font-weight: 400;
     text-align: center;
@@ -691,9 +724,12 @@ a.footlnk:active {
     display: block;
     min-height: 50px;
     float: left;
-    width: 80px;
+    width: 60px;
+    -webkit-filter: drop-shadow( 0px 2px 1px rgba(0,0,0,.3) );
+    filter: drop-shadow( 0px 2px 1px rgba(0,0,0,.3) );
     overflow: hidden;
-    margin-right: 30px;
+    margin-right: 15px;
+    overflow: hidden;
     
 }
 
@@ -701,8 +737,9 @@ a.footlnk:active {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     padding-top: 1px;
     margin: 0;
+    overflow: hidden;
 }

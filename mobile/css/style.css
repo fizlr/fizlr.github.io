@@ -1,0 +1,42 @@
+.icon-head {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon {
+    width: auto;
+    height: 150px;
+}
+
+.title {
+    width: 100%;
+}
+
+.title-text {
+    font-family: 'Lato' , sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #D72500;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.copy {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copy-text {
+    font-family: 'Lato' , sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: 697D7F;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}

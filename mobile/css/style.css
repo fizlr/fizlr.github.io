@@ -21,7 +21,7 @@
     color: #D72500;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .copy {
@@ -33,10 +33,10 @@
 .copy-text {
     font-family: 'Lato' , sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    color: 697D7F;
-    text-align: center;
+    font-size: 17px;
+    color: #697D7F;
+    text-align: left;
+    line-height: 1.4;
     margin: 0;
     margin-bottom: 15px;
-    margin-top: 20px;
 }
